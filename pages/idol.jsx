@@ -2,6 +2,10 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import idolFaceImage from "../public/assets/projects/idol.png";
+import initialImage from "../public/assets/projects/idol_image/initial.png";
+import after120kImage from "../public/assets/projects/idol_image/after_120k.png";
+import finalImage from "../public/assets/projects/idol_image/final.png";
+import descriptionImage from "../public/assets/projects/idol_image/idol_description.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
 const idol = () => {
@@ -70,7 +74,7 @@ const idol = () => {
               <div className="justify-center items-center">
                 <Image
                   className="rounded-xl"
-                  src="/../public/assets/projects/idol_image/initial.png"
+                  src={initialImage}
                   alt="/"
                   width="770"
                   height="770"
@@ -84,7 +88,7 @@ const idol = () => {
               <div className="justify-center items-center">
                 <Image
                   className="rounded-xl"
-                  src="/../public/assets/projects/idol_image/after_120k.png"
+                  src={after120kImage}
                   alt="/"
                   width="770"
                   height="770"
@@ -98,7 +102,7 @@ const idol = () => {
               <div className="justify-center items-center">
                 <Image
                   className="rounded-xl"
-                  src="/../public/assets/projects/idol_image/final.png"
+                  src={finalImage}
                   alt="/"
                   width="770"
                   height="770"
@@ -127,7 +131,7 @@ const idol = () => {
             <div className="justify-center items-center m-auto">
               <Image
                 className="rounded-xl"
-                src="/../public/assets/projects/idol_image/idol_description.png"
+                src={descriptionImage}
                 alt="/"
                 width="1000"
                 height="1000"

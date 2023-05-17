@@ -4,6 +4,7 @@ import { AiFillFacebook, AiOutlineInstagram } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
+import programmingImage from "../public/assets/programming.jpg"
 
 const Contact = () => {
   return (
@@ -20,20 +21,24 @@ const Contact = () => {
               <div>
                 <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src="/../public/assets/florian-olivo-4hbJ-eymZ1o-unsplash.jpg"
+                  src={programmingImage}
                   alt="/"
                   width="600"
                   height="600"
                 />
               </div>
               <div>
-                <h2 className="py-2">Samuel Yoo</h2>
-                <p>Software Engineer</p>
+                <h2 className="py-2">Chan (Samuel) Yoo</h2>
+                <p>Software Engineering Student</p>
                 <p className="py-4">
                   If you have any question about me, or my projects, please
                   don&apos;t hesistate to contact me. My Linkedin and GitHub is
                   available below, and you can email me using the form.
                 </p>
+              </div>
+              <div className="text-gray-400">
+                <p className="hover:scale-105 ease-in duration-300">+64 212662948</p>
+                <p className="hover:scale-105 ease-in duration-300">scy02718@gmail.com</p>
               </div>
               <div>
                 <p className="uppercase pt-8">Connect with me</p>

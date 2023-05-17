@@ -2,6 +2,13 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import quickDrawImage from "../public/assets/projects/quick.png";
+import aboutusImage from "../public/assets/projects/quick_draw/about_us.png";
+import badgeImage from "../public/assets/projects/quick_draw/badge.png";
+import hiddenImage from "../public/assets/projects/quick_draw/hidden_word.png";
+import sandboxImage from "../public/assets/projects/quick_draw/sandbox.png";
+import settingsImage from "../public/assets/projects/quick_draw/settings.png";
+import statsImage from "../public/assets/projects/quick_draw/statistics.png";
+import zenImage from "../public/assets/projects/quick_draw/zen.png";
 
 import { RiRadioButtonFill } from "react-icons/ri";
 
@@ -70,7 +77,7 @@ const quick_draw = () => {
               <div className="justify-center items-center">
                 <Image
                   className="rounded-xl"
-                  src="/../public/assets/projects/quick_draw/hidden_word.png"
+                  src={hiddenImage}
                   alt="/"
                   width="770"
                   height="770"
@@ -81,7 +88,7 @@ const quick_draw = () => {
               <div className="justify-center items-center">
                 <Image
                   className="rounded-xl"
-                  src="/../public/assets/projects/quick_draw/zen.png"
+                  src={zenImage}
                   alt="/"
                   width="770"
                   height="770"
@@ -92,7 +99,7 @@ const quick_draw = () => {
               <div className="justify-center items-center">
                 <Image
                   className="rounded-xl"
-                  src="/../public/assets/projects/quick_draw/sandbox.png"
+                  src={sandboxImage}
                   alt="/"
                   width="770"
                   height="770"
@@ -135,7 +142,7 @@ const quick_draw = () => {
               <div className="justify-center items-center">
                 <Image
                   className="rounded-xl"
-                  src="/../public/assets/projects/quick_draw/badge.png"
+                  src={badgeImage}
                   alt="/"
                   width="770"
                   height="770"
@@ -146,7 +153,7 @@ const quick_draw = () => {
               <div className="justify-center items-center">
                 <Image
                   className="rounded-xl"
-                  src="/../public/assets/projects/quick_draw/statistics.png"
+                  src={statsImage}
                   alt="/"
                   width="770"
                   height="770"
@@ -157,7 +164,7 @@ const quick_draw = () => {
               <div className="justify-center items-center">
                 <Image
                   className="rounded-xl"
-                  src="/../public/assets/projects/quick_draw/settings.png"
+                  src={settingsImage}
                   alt="/"
                   width="770"
                   height="770"
@@ -168,7 +175,7 @@ const quick_draw = () => {
               <div className="justify-center items-center">
                 <Image
                   className="rounded-xl"
-                  src="/../public/assets/projects/quick_draw/about_us.png"
+                  src={aboutusImage}
                   alt="/"
                   width="770"
                   height="770"

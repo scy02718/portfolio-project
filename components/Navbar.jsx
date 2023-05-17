@@ -41,8 +41,17 @@ const Navbar = () => {
 
       window.addEventListener("scroll", handleShadow);
     } else {
-      setNavBg("#ecf0f3");
-      setLinkColor("#1f2937");
+      setNavBg("#transparent");
+
+      const handleShadow = () => {
+        if (window.scrollY >= 210) {
+          setNavBg("#ecf0f3");
+        } else {
+          setNavBg("transparent");
+        }
+      };
+
+      window.addEventListener("scroll", handleShadow);
     }
   }, [router]);
 

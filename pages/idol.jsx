@@ -37,12 +37,12 @@ const idol = () => {
             React frontend and Flask backend, with a variety of capabilities,
             including adjustable truncation psi, noise input, seed preservation,
             and the ability to save favorite images. However, to further improve
-            the model's output, I suggest utilizing a better and more powerful
+            the model&apos;s output, I suggest utilizing a better and more powerful
             GPU, which would enable higher resolution images. Additionally, I
             recommend incorporating a less biased dataset, as the current
             dataset has a bias towards certain celebrities. Expanding the
             dataset to include a wider variety of celebrities would further
-            enhance the model's performance.
+            enhance the model&apos;s performance.
           </p>
           <p className="my-4">
             For this project, I initially considered implementing a whole
@@ -179,7 +179,7 @@ const idol = () => {
               however most of the images were quite abnormal and disturbing
               (less of a human figure). Conversely, the closer the truncation
               psi is to 0, the more general the image became, representing the
-              "most average" image of a k=pop idol.
+              &quot;most average&quot; image of a K-pop idol.
             </li>
             <li>
               Set Favorite: The star button sets the image to favorite. The seed

@@ -31,7 +31,7 @@ const Contact = () => {
                 <p>Software Engineer</p>
                 <p className="py-4">
                   If you have any question about me, or my projects, please
-                  don't hesistate to contact me. My Linkedin and GitHub is
+                  don&apos;t hesistate to contact me. My Linkedin and GitHub is
                   available below, and you can email me using the form.
                 </p>
               </div>
@@ -50,12 +50,12 @@ const Contact = () => {
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
                     <Link href="https://www.facebook.com/profile.php?id=100012656147526">
-                        <AiFillFacebook />
+                      <AiFillFacebook />
                     </Link>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
                     <Link href="https://www.instagram.com/samuel.yoo_/">
-                        <AiOutlineInstagram />
+                      <AiOutlineInstagram />
                     </Link>
                   </div>
                 </div>
@@ -105,9 +105,11 @@ const Contact = () => {
                     rows="10"
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4">
-                  Send Message
-                </button>
+                <Link href="/">
+                  <button className="w-full p-4 text-gray-100 mt-4">
+                    Send Message
+                  </button>
+                </Link>
               </form>
             </div>
           </div>

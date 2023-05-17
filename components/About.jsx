@@ -29,8 +29,8 @@ const About = () => {
             believe shows not just my commitment to learning, but reflects also
             my resilience, inherent passion and flexibility. I have also gained
             hands-on communication, leadership and cooperation skills by
-            completing such courses as "Professional Skills and Communication"
-            and "Software Engineering Design"
+            completing such courses as &quot;Professional Skills and Communication&quot;
+            and &quot;Software Engineering Design&quot;
           </p>
           <p className="py-2 text-gray-600">
             I am originally from South Korea, fluent in both Korean and English.

@@ -9,10 +9,10 @@ const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600">
-            Let's build something legendary together
+            Let&apos;s build something legendary together
           </p>
           <h1 className="py-4 text-gray-700">
-            Hi, I'm
+            Hi, I&apos;m
             <Link href="/#about">
               <span className="text-[#5651e5] cursor-pointer"> Chan</span>
             </Link>
@@ -29,7 +29,7 @@ const Main = () => {
             approach challenges from multiple angles. My passion for software
             engineering extends beyond the classroom, and I am constantly
             seeking new opportunities to expand my knowledge and skills. Whether
-            it's attending industry conferences or collaborating with peers on
+            it&apos;s attending industry conferences or collaborating with peers on
             open-source projects, I am committed to staying at the forefront of
             this ever-evolving field, and excited to see how I would be able to
             contribute to the wave of change.

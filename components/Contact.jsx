@@ -7,6 +7,10 @@ import Link from "next/link";
 import programmingImage from "../public/assets/programming.jpg"
 
 const Contact = () => {
+  const handleButtonClick = (event) =>{
+    alert("Message has been sent!");
+  }
+
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
@@ -111,7 +115,7 @@ const Contact = () => {
                   ></textarea>
                 </div>
                 <Link href="/">
-                  <button className="w-full p-4 text-gray-100 mt-4">
+                  <button className="w-full p-4 text-gray-100 mt-4" onClick={handleButtonClick}>
                     Send Message
                   </button>
                 </Link>

@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Samuel Yoo | Developer</title>
+        <title>CHAN YOO</title>
       </Head>
     <Main/>
     <About/>

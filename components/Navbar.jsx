@@ -172,6 +172,7 @@ const Navbar = () => {
                     <FaGithub />
                   </Link>
                 </div>
+                {/*
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <Link href="https://www.facebook.com/profile.php?id=100012656147526">
                     <AiFillFacebook />
@@ -182,6 +183,7 @@ const Navbar = () => {
                     <AiOutlineInstagram />
                   </Link>
                 </div>
+                */}
               </div>
             </div>
           </div>

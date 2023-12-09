@@ -34,6 +34,7 @@ const Main = () => {
             this ever-evolving field, and excited to see how I would be able to
             contribute to the wave of change.
           </p>
+          {/*
           <div className="flex itmes-center justify-between max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-300">
               <Link href="https://www.linkedin.com/in/chanyoo/">
@@ -56,6 +57,7 @@ const Main = () => {
               </Link>
             </div>
           </div>
+  */}
         </div>
       </div>
     </div>

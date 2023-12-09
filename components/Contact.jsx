@@ -41,7 +41,7 @@ const Contact = () => {
                 </p>
               </div>
               <div className="text-gray-400">
-                <p className="hover:scale-105 ease-in duration-300">+64 212662948</p>
+                {/*<p className="hover:scale-105 ease-in duration-300">+64 212662948</p>*/}
                 <p className="hover:scale-105 ease-in duration-300">scy02718@gmail.com</p>
               </div>
               <div>
